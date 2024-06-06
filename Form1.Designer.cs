@@ -36,7 +36,8 @@
             // 
             // input
             // 
-            this.input.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.input.BackColor = System.Drawing.SystemColors.Window;
+            this.input.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.input.Location = new System.Drawing.Point(28, 24);
             this.input.Multiline = true;
             this.input.Name = "input";
@@ -45,8 +46,10 @@
             // 
             // output
             // 
+            this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.output.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.output.CausesValidation = false;
-            this.output.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.output.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.output.Location = new System.Drawing.Point(28, 270);
             this.output.Multiline = true;
             this.output.Name = "output";
@@ -76,7 +79,7 @@
             this.Controls.Add(this.input);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "All Caps by SS";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
