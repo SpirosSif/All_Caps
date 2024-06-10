@@ -37,11 +37,12 @@
             // input
             // 
             this.input.BackColor = System.Drawing.SystemColors.Window;
-            this.input.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.input.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.input.Location = new System.Drawing.Point(28, 24);
             this.input.Multiline = true;
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(714, 142);
+            this.input.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.input.Size = new System.Drawing.Size(760, 142);
             this.input.TabIndex = 0;
             // 
             // output
@@ -49,12 +50,13 @@
             this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.output.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.output.CausesValidation = false;
-            this.output.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.output.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.output.Location = new System.Drawing.Point(28, 270);
             this.output.Multiline = true;
             this.output.Name = "output";
             this.output.ReadOnly = true;
-            this.output.Size = new System.Drawing.Size(714, 142);
+            this.output.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.output.Size = new System.Drawing.Size(760, 142);
             this.output.TabIndex = 2;
             this.output.Text = "Your Text will be displayed here";
             // 
